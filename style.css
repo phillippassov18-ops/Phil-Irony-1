@@ -1,0 +1,103 @@
+body{
+    background:#000;
+    color:white;
+    font-family:Avenir,"Avenir Next",Helvetica,sans-serif;
+    margin:0;
+    font-size:16px;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.top-left{
+    position:fixed;
+    left:22px;
+    top:22px;
+    color:#ff3b30;
+    font-size:15px;
+}
+
+.top-right{
+    position:fixed;
+    right:22px;
+    top:22px;
+    font-size:15px;
+}
+
+.top-right a{
+    color:#ff3b30;
+}
+
+.home,
+.album-page{
+    width:520px;
+    max-width:88vw;
+    margin:80px auto 50px auto;
+}
+
+.small-title{
+    margin-top:50px;
+    margin-bottom:16px;
+}
+
+.album-cover{
+    width:520px;
+    max-width:100%;
+    display:block;
+    margin-bottom:55px;
+}
+
+.bottom-links{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:18px;
+    margin-top:30px;
+    margin-bottom:60px;
+}
+
+.bottom-links a,
+.listen-links a{
+    color:#ff3b30;
+    text-decoration:underline;
+}
+
+.listen-links{
+    display:flex;
+    gap:18px;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.tracklist{
+    margin-top:30px;
+}
+
+details{
+    margin-bottom:18px;
+}
+
+summary{
+    cursor:pointer;
+    list-style:none;
+}
+
+summary::-webkit-details-marker{
+    display:none;
+}
+
+summary span{
+    float:right;
+    color:rgba(255,255,255,.65);
+}
+
+details p{
+    line-height:1.5;
+    color:rgba(255,255,255,.85);
+}
