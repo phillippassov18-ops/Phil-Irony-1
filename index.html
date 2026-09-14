@@ -3,42 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Music and films by Phil Irony.">
   <title>Phil Irony</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Phil Irony home">Phil Irony</a>
+    <a class="nav-link" href="#work">Work</a>
+  </header>
 
-<div class="top-left">
-    Phil Irony
-</div>
+  <main>
+    <section class="intro" aria-labelledby="intro-message">
+      <h1 id="intro-message">
+        Hi. I’m Phil. I want to help people and change the world.
+        <span>Yes, too broad, and everybody says that.</span>
+      </h1>
+    </section>
 
-<div class="top-right">
-    <a href="index.html">Discography</a>
-</div>
+    <section class="work" id="work" aria-labelledby="work-heading">
+      <h2 id="work-heading">Here’s what I’m doing about it:</h2>
 
-<main class="home">
+      <ol class="release-list">
+        <li>
+          <a class="release" href="ep1.html">
+            <span class="release-number">01</span>
+            <span class="release-title">Take It As You Will</span>
+            <span class="release-type">EP</span>
+            <span class="release-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li>
+          <a class="release" href="ep2.html">
+            <span class="release-number">02</span>
+            <span class="release-title">Again and Again and Again</span>
+            <span class="release-type">Film + song</span>
+            <span class="release-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+      </ol>
+    </section>
+  </main>
 
-<p class="small-title">Who Cares?</p>
-
-<a href="ep2.html">
-    <img class="album-cover" src="Who Cares EP.png" alt="Who Cares?">
-</a>
-
-<p class="small-title">Take It As You Will</p>
-
-<a href="ep1.html">
-    <img class="album-cover" src="EP1.png" alt="Take It As You Will">
-</a>
-
-<div class="bottom-links">
-    <a href="https://open.spotify.com/artist/69qoSF35NxEwvkqIJ1cYDh" target="_blank">Spotify</a>
-    <a href="https://music.apple.com/us/artist/phil-irony/1895203218" target="_blank">Apple Music</a>
-    <a href="https://www.instagram.com/phil.irony/" target="_blank">Instagram</a>
-    <a href="https://music.youtube.com/channel/UC3ixc5yNg5zxXjvX2o9F77Q" target="_blank">YouTube Music</a>
-</div>
-
-</main>
-
+  <footer class="site-footer">
+    <p>Listen / follow</p>
+    <nav class="footer-links" aria-label="Music and social links">
+      <a href="https://open.spotify.com/artist/69qoSF35NxEwvkqIJ1cYDh" target="_blank" rel="noopener noreferrer">Spotify</a>
+      <a href="https://music.apple.com/us/artist/phil-irony/1895203218" target="_blank" rel="noopener noreferrer">Apple Music</a>
+      <a href="https://www.instagram.com/phil.irony/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://music.youtube.com/channel/UC3ixc5yNg5zxXjvX2o9F77Q" target="_blank" rel="noopener noreferrer">YouTube Music</a>
+    </nav>
+  </footer>
 </body>
 </html>
